@@ -19,4 +19,5 @@
 ### 方式一：传入公钥字符串
 
 ```bash
-./ssh_secure.sh "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAA... user@host"
+bash <(wget -qO- https://raw.githubusercontent.com/golong1989/ssh-key/main/run.sh) \
+"ssh-ed25519 AAAAC3NzaC1lZDI1............................puLxS2ty0gQvUjb8BJ5a+Mz root"
